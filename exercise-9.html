@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="index.html">Home</a>
+    <center>
+      <form action="">
+        <table align="center" cellpadding="5">
+          <thead>
+            <th colspan="2"><h1>Learning HTML Form</h1></th>
+          </thead>
+          <tr>
+            <td><label for="f-name">Full Name</label></td>
+            <td><input type="text" name="fullname" id="f-name" required /></td>
+          </tr>
+          <tr>
+            <td><label for="pass">Password</label></td>
+            <td>
+              <input type="password" name="password" id="pass" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email Address</label></td>
+            <td><input type="email" name="email" id="email" required /></td>
+          </tr>
+          <tr>
+            <td><label for="single">Status</label></td>
+            <td>
+              <label for="single">Single</label>
+              <input
+                type="radio"
+                name="status"
+                id="single"
+                required
+                value="s"
+              />
+              <label for="single">Married</label>
+              <input type="radio" name="status" id="married" value="m" />
+              <label for="single">Widow</label>
+              <input type="radio" name="status" id="widow" value="w" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="bday">Date of Birth</label></td>
+            <td><input type="date" id="bday" /></td>
+          </tr>
+          <tr>
+            <td><label for="age">Age</label></td>
+            <td><input type="number" id="age" required /></td>
+          </tr>
+          <tr>
+            <td rowspan="3">
+              <label for="g-benefits">Government Benefits</label>
+            </td>
+            <td><input type="checkbox" name="sss" id="gov" required />SSS</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="hdmf" id="gov" />HDMF</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="philhealth" id="gov" />PhilHealth
+            </td>
+          </tr>
+          <tr>
+            <td><label for="sched">Preferred Schedule</label></td>
+            <td><input type="time" id="sched" required /></td>
+          </tr>
+          <tr>
+            <td><label for="payment">Payment Options</label></td>
+            <td>
+              <select name="payment" id="payment" required>
+                <option value="m" selected>Monthly</option>
+                <option value="q">Quarterly</option>
+                <option value="sa">Semi-annually</option>
+                <option value="a">Annually</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="internet">Internet Provider</label></td>
+            <td>
+              <input type="text" name="internet" id="internet" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="file">Upload ID Photo</label></td>
+            <td><input type="file" required /></td>
+          </tr>
+          <tr>
+            <td><label for="info">Additional Info</label></td>
+            <td>
+              <textarea name="info" id="info" cols="30" rows="10"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" id="submit" class="submit-button" /></td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
