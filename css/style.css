@@ -37,6 +37,7 @@ body {
 }
 
 #t1 a {
+  font-size: 1.15em;
   text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #caf0f8;
