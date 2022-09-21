@@ -51,6 +51,7 @@ body {
   height: 40em;
   width: 60%;
   background-color: #edf6f9;
+  border: 5px solid #0096c7;
 }
 
 .hr2 {
@@ -58,7 +59,13 @@ body {
   visibility: hidden;
 }
 
+.hr3 {
+  height: 5em;
+  visibility: hidden;
+}
+
 ::-webkit-scrollbar {
+  background-color: #36393f;
   width: 15px;
 }
 

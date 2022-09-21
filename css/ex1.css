@@ -73,3 +73,13 @@ main {
   margin-left: 3em;
   margin-right: 3em;
 }
+
+::-webkit-scrollbar {
+  background-color: #14213d;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ade8f4, #03045e);
+  border-radius: 6px;
+}
