@@ -36,25 +36,25 @@ body {
   margin-top: 90px;
 }
 
-#t1 a {
-  font-size: 1.05em;
-  text-decoration: none;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #caf0f8;
-  background-color: #0096c7;
-  padding: 3px;
-  border-radius: 10px;
+.h1-html {
+  display: inline;
 }
 
-#t1 a:hover {
-  background-color: #0d5eff;
+.iframe1,
+.iframe3 {
+  height: 40em;
+  width: 30%;
 }
 
-.iframe {
+.iframe2,
+.iframe4 {
+  height: 40em;
+  width: 60%;
   background-color: #edf6f9;
 }
 
-#css-ex {
+.hr2 {
+  height: 15em;
   visibility: hidden;
 }
 
