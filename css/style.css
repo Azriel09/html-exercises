@@ -43,24 +43,20 @@ body {
 .iframe1,
 .iframe3 {
   height: 40em;
-  width: 30%;
+  width: 25%;
 }
 
 .iframe2,
 .iframe4 {
   height: 40em;
-  width: 60%;
+  width: 70%;
   background-color: #edf6f9;
   border: 5px solid #0096c7;
 }
 
-.hr2 {
-  height: 15em;
-  visibility: hidden;
-}
-
+.hr2,
 .hr3 {
-  height: 5em;
+  height: 15em;
   visibility: hidden;
 }
 
