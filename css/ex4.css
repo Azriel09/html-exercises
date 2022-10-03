@@ -1,0 +1,227 @@
+body {
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+/* NAV */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-nav-items li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.li-nav-items li {
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.li-nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-post-btn {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 5px 20px;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+nav img {
+  width: 150px;
+}
+
+img {
+  width: 100%;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  background-image: url("../assets/img/ex4/Sunset.jpg");
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 70vh;
+  background-size: cover;
+}
+
+.header-content {
+  text-align: center;
+  padding: 15px;
+}
+
+.header-content h1 {
+  font-size: 3em;
+  padding: 10px;
+}
+
+.header-content p {
+  font-size: 1.3em;
+  margin-bottom: 3em;
+}
+
+.header-content a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  padding: 1.1em;
+  border-radius: 10px;
+}
+
+/* MAIN */
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1900px;
+}
+
+main {
+  padding: 10px;
+}
+
+.post-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-content h1 {
+  font-size: 2.5em;
+}
+
+.post-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #14213d;
+}
+
+.post-author {
+  margin: 10px;
+}
+
+aside {
+  padding: 10px;
+}
+
+.about-me {
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 5);
+}
+
+.about-me img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.post-content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #14213d;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #003049;
+  color: white;
+}
+
+.about p {
+  color: #8d99ae;
+}
+
+.logo-text {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #ffbe0b;
+}
+
+.logo-text ~ span {
+  color: #fff;
+}
+
+footer .contact i {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.socials a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #fcbf49;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #00777b6;
+  font-size: 30px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.socials {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 675px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .li-nav-items {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+  }
+
+  nav ul li {
+    padding: 10px;
+  }
+
+  main {
+    width: 70%;
+  }
+
+  aside {
+    width: 30%;
+  }
+
+  .container-flex {
+    flex-direction: row;
+  }
+}
