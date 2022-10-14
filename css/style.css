@@ -5,16 +5,18 @@ body {
 }
 
 .home {
+  text-align: center;
   font-family: "Caveat", cursive;
   font-size: 4em;
-  color: white;
-  padding-left: 20px;
+
   padding-top: 20px;
-  text-decoration: none;
-  display: block;
+
   animation: homeSlide 0.3s ease-in;
-  margin-bottom: 50px;
-  position: fixed;
+}
+
+.home a {
+  text-decoration: none;
+  color: white;
 }
 
 .html-list,
