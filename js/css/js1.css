@@ -1,0 +1,88 @@
+.input-list:checked + .label-list {
+  text-decoration: line-through;
+}
+
+.h2-grocery {
+  background-color: #36393e;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin: 3vh auto 3vh;
+}
+
+.list-group-item {
+  width: 100%;
+}
+
+.col .input-group .btn {
+  color: white;
+  background-color: #36393e;
+}
+
+#first-col {
+  margin-top: 5vh;
+  background-color: gray;
+  border-radius: 10px;
+  overflow: scroll;
+  height: 80vh;
+}
+
+#second-col {
+  margin-top: 5vh;
+  border-radius: 10px;
+  margin-left: 10vh;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Open+Sans");
+
+body {
+  margin: 20px;
+  font: 16px "Open Sans", sans-serif;
+}
+
+body .gist .gist-file {
+  margin-bottom: 0;
+  border: 1px dashed #adb5bd;
+  border-radius: 0;
+}
+
+body .gist .gist-data {
+  border-bottom: none;
+  border-radius: 0;
+  background-color: #f1f3f5;
+}
+
+body .gist .blob-wrapper {
+  border-radius: 0;
+}
+
+body .gist .highlight {
+  background-color: transparent;
+  font-family: "Droid Sans Mono", monospace;
+  font-size: 14px;
+}
+
+body .gist .highlight td {
+  padding: 5px 15px !important;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body .gist tr:first-child td {
+  padding-top: 15px !important;
+}
+
+body .gist tr:last-child td {
+  padding-bottom: 15px !important;
+}
+
+body .gist .blob-num {
+  color: #ced4da;
+  background-color: #495057;
+  pointer-events: none;
+}
+
+body .gist .gist-meta {
+  display: none;
+}

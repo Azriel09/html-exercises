@@ -21,7 +21,13 @@ body {
 
 .html-list,
 .html-h1,
-.html-list a {
+.html-list a,
+.css-list,
+.css-h1,
+.css-list a,
+.js-list,
+.js-h1,
+.js-list a {
   color: white;
   font-size: 20px;
   text-decoration: none;
@@ -32,41 +38,32 @@ body {
 }
 
 .html-list a,
-.css-list a {
+.css-list a,
+.js-list a {
   background-color: rgba(86, 97, 120, 0.3);
   padding: 10px;
   border-radius: 1em;
   transition: font-size 0.3s;
 }
 
-.css-list,
 .css-h1,
-.css-list a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  list-style: none;
-  font-family: "Montserrat", sans-serif;
-  line-height: 4em;
-}
-
-.css-h1,
-.html-h1 {
+.html-h1,
+.js-h1 {
   padding-left: 20px;
   font-size: 40px;
   margin-top: 100px;
 }
 
 .css-list a:hover,
-.html-list a:hover {
+.html-list a:hover,
+.js-list a:hover {
   font-size: larger;
   font-weight: 600;
 }
 
-.container {
+.sub-container {
   float: left;
-  width: 50%;
+  width: 33%;
 }
 
 #html-con {
@@ -77,6 +74,10 @@ body {
   animation: cssSlide 0.4s ease-in;
 }
 
+#js-con {
+  animation: jsSlide 0.4s ease-in;
+}
+
 @keyframes htmlSlide {
   0% {
     transform: translateX(-200px);
@@ -84,6 +85,12 @@ body {
 }
 
 @keyframes cssSlide {
+  0% {
+    transform: translateY(200px);
+  }
+}
+
+@keyframes jsSlide {
   0% {
     transform: translate(200px);
   }

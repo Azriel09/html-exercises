@@ -1,0 +1,40 @@
+.list-group-item {
+  font-size: 1.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* color: #36393e, #2F3136 */
+
+.col .card .card-header,
+.card-body .btn {
+  background-color: #2f3136;
+  color: white;
+}
+
+.row .col .card {
+  background-color: #36393e;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.card-body .btn {
+  border: 1px solid white;
+  font-size: 2em;
+  padding: 0 2em;
+}
+
+.card .card-body .btn:hover {
+  background-color: white;
+  color: #2f3136;
+  border: 1px solid #36393e;
+  transition: 0.3s;
+}
+
+h1 a {
+  text-decoration: none;
+  background-color: #36393e;
+  color: white;
+  display: inline;
+  padding: 5px 10px 5px;
+  border-radius: 5px;
+}
