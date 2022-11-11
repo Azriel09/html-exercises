@@ -33,6 +33,11 @@
   margin-left: 10vh;
 }
 
+h3 a {
+  text-decoration: none;
+  color: black;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Open+Sans");
 
 body {

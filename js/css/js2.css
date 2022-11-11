@@ -2,6 +2,10 @@
   text-decoration: line-through;
 }
 
+h3 a {
+  text-decoration: none;
+  color: black;
+}
 .h2-grocery {
   background-color: #36393e;
   text-align: center;
